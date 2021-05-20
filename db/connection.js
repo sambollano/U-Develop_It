@@ -8,3 +8,5 @@ const db = mysql.createConnection({
   password: '',
   database: 'election'
 });
+
+module.exports = db;
